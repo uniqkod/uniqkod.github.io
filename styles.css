@@ -63,7 +63,7 @@ table {
 
 p {
 	color: #15171a;
-	font-size: 17;
+	font-size: 17px;
 	line-height: 31px;
 }
 
@@ -154,7 +154,7 @@ h1.name {
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
-	width: 100px;
+	width: 25%;
 }
 
 .list-card div {
