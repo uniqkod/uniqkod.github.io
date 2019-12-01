@@ -357,7 +357,9 @@ li .description {
 
 /*timeline ends*/
 
-
+.timelinesmall{
+		display: none;
+	}
 
 /* Media queries*/
 
@@ -370,9 +372,7 @@ li .description {
 		margin-top: 250px;
 	}
 	
-	.timelinesmall{
-		display: none;
-	}
+	 
 }
 
 @media(max-width: 768px){
@@ -399,9 +399,7 @@ li .description {
 	}
 
 	
-	.timelinesmall{
-		display: none;
-	}
+	 
 	
 	.timeline{
 		border: none;
@@ -433,6 +431,7 @@ li .description {
 	
 	
 	.timelinesmall{
+		display: block;
 		border: none;
 		background-color: rgba(0,0,0,0);
 	}
