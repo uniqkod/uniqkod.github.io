@@ -419,9 +419,9 @@ li .description {
 	}
 
 	.timeline{
-		display: none;
-		}
-
+		border: none;
+		background-color: rgba(0,0,0,0);
+	}
 	.job-title {
 		position: absolute;
 		font-size: 15px;
