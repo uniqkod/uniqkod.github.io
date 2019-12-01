@@ -425,17 +425,11 @@ li .description {
 		float: left;
 	}
 
+
 	.timeline{
-		display: none;
-	}
-	
-	
-	.timelinesmall{
-		display: block;
 		border: none;
 		background-color: rgba(0,0,0,0);
-	}
-	
+	}	
 	
 	.job-title {
 		position: absolute;
