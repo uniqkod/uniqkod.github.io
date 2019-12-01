@@ -359,11 +359,7 @@ li .description {
  
 
 /* Media queries*/
-@media(max-width: 5768px){
-	.smalltimeline {
-	  display: none;
-	}
-}
+ 
 @media(max-width: 1024px){
 	.container {
 		padding: 15px;
@@ -373,9 +369,7 @@ li .description {
 		margin-top: 250px;
 	}
 	
-	.smalltimeline {
-	  display: none;
-	}
+	 
 	 
 }
 @media(max-width: 768px){
@@ -411,9 +405,7 @@ li .description {
 		height: 150px;
 	}
 	
-	.smalltimeline {
-	  display: none;
-	}
+	 
 }
 
 
