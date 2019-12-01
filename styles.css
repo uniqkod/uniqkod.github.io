@@ -357,11 +357,13 @@ li .description {
 
 /*timeline ends*/
  
-.smalltimeline {
-  display: none;
-}
-/* Media queries*/
 
+/* Media queries*/
+@media(max-width: 5768px){
+	.smalltimeline {
+	  display: none;
+	}
+}
 @media(max-width: 1024px){
 	.container {
 		padding: 15px;
@@ -371,9 +373,11 @@ li .description {
 		margin-top: 250px;
 	}
 	
+	.smalltimeline {
+	  display: none;
+	}
 	 
 }
-
 @media(max-width: 768px){
 	.container {
 		padding: 15px;
@@ -406,6 +410,10 @@ li .description {
 		margin-top: 70px;
 		height: 150px;
 	}
+	
+	.smalltimeline {
+	  display: none;
+	}
 }
 
 
@@ -423,10 +431,6 @@ li .description {
 
 	.timeline {
 	  display: none;
-	}
-	
-	.smalltimeline {
-	  display: block;
 	}
 	
 	.job-title {
