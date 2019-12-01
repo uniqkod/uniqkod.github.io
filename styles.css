@@ -357,6 +357,9 @@ li .description {
 
 /*timeline ends*/
  
+.smalltimeline {
+  display: none;
+}
 /* Media queries*/
 
 @media(max-width: 1024px){
@@ -418,7 +421,13 @@ li .description {
 		float: left;
 	}
 
-
+	.timeline {
+	  display: none;
+	}
+	
+	.smalltimeline {
+	  display: block;
+	}
 	
 	.job-title {
 		position: absolute;
@@ -437,9 +446,7 @@ li .description {
 		margin: 0px;
 		padding: 0 15px;
 	}
-	footer {
-		margin-top: 2050px;
-	}
+	 
 	}
 
 
