@@ -356,11 +356,7 @@ li .description {
 }
 
 /*timeline ends*/
-
-.timelinesmall{
-		display: none;
-	}
-
+ 
 /* Media queries*/
 
 @media(max-width: 1024px){
@@ -398,9 +394,6 @@ li .description {
 		float: left;
 	}
 
-	
-	 
-	
 	.timeline{
 		border: none;
 		background-color: rgba(0,0,0,0);
@@ -430,6 +423,11 @@ li .description {
 		border: none;
 		background-color: rgba(0,0,0,0);
 	}	
+	
+	.timeline li{
+		margin-top: 70px;
+		height: 150px;
+	}
 	
 	.job-title {
 		position: absolute;
