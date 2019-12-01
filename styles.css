@@ -369,6 +369,10 @@ li .description {
 	.cards {
 		margin-top: 250px;
 	}
+	
+	.timelinesmall{
+		display: none;
+	}
 }
 
 @media(max-width: 768px){
@@ -394,6 +398,11 @@ li .description {
 		float: left;
 	}
 
+	
+	.timelinesmall{
+		display: none;
+	}
+	
 	.timeline{
 		border: none;
 		background-color: rgba(0,0,0,0);
@@ -419,9 +428,16 @@ li .description {
 	}
 
 	.timeline{
+		display: none;
+	}
+	
+	
+	.timelinesmall{
 		border: none;
 		background-color: rgba(0,0,0,0);
 	}
+	
+	
 	.job-title {
 		position: absolute;
 		font-size: 15px;
