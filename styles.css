@@ -274,7 +274,7 @@ ol::after {
 	width: 0;
 	height: 0;
   	border-radius: 10px;
-	border: 0px solid #31708F;
+	border: 0px solid #41b3d3;
 }
 ol::before {
 	left: -5px;
@@ -283,7 +283,7 @@ ol::after {
 	right: -10px;
 	border: 0px solid transparent;
 	border-right: 0;
-	border-left: 20px solid #31708F;
+	border-left: 20px solid #41b3d3;
   	border-radius: 3px;
 }
 
