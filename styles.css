@@ -33,7 +33,7 @@ footer, header, hgroup, menu, nav, section {
 a{
 	text-decoration: none;
 	text-transform: none;
-	color: #4A90E2;
+	color: #41b3d3;
 }
 
 body {
@@ -100,7 +100,7 @@ h1.name {
 .job-title {
 	vertical-align: top;
 	background-color: #D9E7F8;
-	color: #4A90E2;
+	color: #41b3d3;
 	font-weight: 600;
 	margin-top: 5px;
 	margin-left: 20px;
@@ -152,7 +152,7 @@ h1.name {
 
 .list-card .exp {
 	margin-right: 15px;
-	color: #4A90E2;
+	color: #41b3d3;
 	font-weight: 600;
 	width: 25%;
 }
@@ -312,7 +312,7 @@ li .point {
 	height: 8px;
 	border: 4px solid #fff;
 	border-radius: 10px;
-	background: #4A90E2;
+	background: #41b3d3;
   position: absolute;
 }
 li .description {
